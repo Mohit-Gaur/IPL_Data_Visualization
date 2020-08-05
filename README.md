@@ -6,8 +6,11 @@ A web-app to visualize IPL data using datasets from [Kaggle](https://www.kaggle.
 * To view this project locally, clone this repository, navigate to the project directory and run the following commands
 ```
 npm install
+touch .env
+echo "VUE_APP_GMAPS_API_KEY=GOOGLE_MAPS_API_KEY" >> .env
 npm run serve
 ```
+Replace GOOGLE_MAPS_API_KEY with the API Key
 
 ## Project Structure:
 The visualizations have been divided into four sections - <b>Teams</b>, <b>Players</b>, <b>Venues</b> and <b>Seasons</b> and observations have been provided with the visualizations in a side card.
