@@ -3,7 +3,7 @@ A web-app to visualize IPL data using datasets from [Kaggle](https://www.kaggle.
 
 ## View the web-app:
 * View it [here](https://ipl-data-visualization-web.netlify.app/)
-* To view it locally, clone this repository, navigate to the project directory and run
+* To view this project locally, clone this repository, navigate to the project directory and run the following commands
 ```
 npm install
 npm run serve
@@ -13,7 +13,7 @@ npm run serve
 The visualizations have been divided into four sections - <b>Teams</b>, <b>Players</b>, <b>Venues</b> and <b>Seasons</b> and observations have been provided with the visualizations in a side card.
 
 ## Major frameworks / libraries used in the project:
-- <b>Vue Framework</b>: <i>Provides features like virtual DOM for better performance, routing using vue-router package, data binding and a lot more.</i>
+- <b>Vue Framework</b>: <i>Used some features like virtual DOM for better performance, routing using vue-router package, data binding and a lot more.</i>
 
 - <b>ChartJS</b>: <i>A simple and powerful API to create different types of charts with animations.</i>
 
